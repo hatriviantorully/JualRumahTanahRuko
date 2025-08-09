@@ -1,6 +1,5 @@
-const BASE_PATH = import.meta.env.BASE_URL || "/JualRumahTanahRuko/";
-
 export default function Entry(props) {
+  const BASE_PATH = import.meta.env.BASE_URL || "/JualRumahTanahRuko/";
   const updatedDate = props.updatedAt ? new Date(props.updatedAt) : new Date();
   const formattedDate = updatedDate.toLocaleDateString("id-ID", {
     day: "numeric",

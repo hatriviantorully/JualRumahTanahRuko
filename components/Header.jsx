@@ -1,6 +1,5 @@
-const BASE_PATH = import.meta.env.BASE_URL || "/JualRumahTanahRuko/";
-
 export default function Header() {
+  const BASE_PATH = import.meta.env.BASE_URL || "/JualRumahTanahRuko/";
   return (
     <header className="app-header">
       <img
