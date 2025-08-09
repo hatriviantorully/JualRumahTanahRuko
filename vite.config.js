@@ -1,8 +1,10 @@
 import {defineConfig} from "vite"
 import react from "@vitejs/plugin-react"
 
+
+
+// Ganti username & repoName sesuai GitHub kamu
 export default defineConfig({
-	plugins: [
-		react()
-	]
+  plugins: [react()],
+  base: '/JualRumahTanahRuko/', // nama repo di GitHub
 })
