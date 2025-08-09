@@ -1,4 +1,4 @@
-const BASE_PATH = import.meta.env.BASE_URL || "/JualRumahTanahRuko/";
+const BASE_PATH = `/JualRumahTanahRuko/`;
 
 export default [
   {

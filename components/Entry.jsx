@@ -45,7 +45,8 @@ export default function Entry(props) {
           )}
         </div>
       </div>
-      {/* Gambar di bawah deskripsi */}
+
+      {/* Gambar */}
       {props.images && props.images.length > 0 && (
         <div className="carousel-container">
           <div
@@ -55,21 +56,28 @@ export default function Entry(props) {
           >
             {props.images
               .filter((img) => img && img.src)
-              .map((img, index) => (
-                <img key={index} className="carousel-image" src={img.src} />
+              .map((img) => (
+                <img
+                  key={img.src}
+                  className="carousel-image"
+                  src={img.src}
+                  alt={img.alt || "image"}
+                />
               ))}
           </div>
         </div>
       )}
 
+      {/* Video */}
       {props.videos && props.videos.length > 0 && (
         <div className="video-container">
-          {props.videos.map((vid, index) => (
+          {props.videos.map((vid) => (
             <video
-              key={index}
+              key={vid.src}
               className="entry-video"
               controls
               preload="metadata"
+              src={vid.src} // fallback src langsung di video tag
             >
               <source src={vid.src} type={vid.type} />
               Browser Anda tidak mendukung video tag.
