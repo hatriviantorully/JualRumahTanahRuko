@@ -2,13 +2,13 @@ export default [
   {
     id: 1,
     images: [
-      { src: "/images/Cemara/image1.jpg", alt: "lokasiImage1" },
-      { src: "/images/Cemara/image2.jpg", alt: "lokasiImage2" },
-      { src: "/images/Cemara/image3.jpg", alt: "lokasiImage3" },
-      { src: "/images/Cemara/image4.jpg", alt: "lokasiImage4" },
+      { src: "/dist/images/Cemara/image1.jpg", alt: "lokasiImage1" },
+      { src: "/dist/images/Cemara/image2.jpg", alt: "lokasiImage2" },
+      { src: "/dist/images/Cemara/image3.jpg", alt: "lokasiImage3" },
+      { src: "/dist/images/Cemara/image4.jpg", alt: "lokasiImage4" },
     ],
     videos: [
-      { src: "/videos/Cemara/video1.mp4", type: "video/mp4" }, // ✅ Tambahan
+      { src: "/dist/videos/Cemara/video1.mp4", type: "video/mp4" }, // ✅ Tambahan
     ],
     title: "Tanah Kavling Dijual",
     city: "Komplek Pemda,Pekanbaru",
@@ -31,10 +31,10 @@ export default [
   {
     id: 2,
     images: [
-      { src: "/images/Ruko/1.jpg", alt: "Gambar Ruko" },
-      { src: "/images/Ruko/2.jpg", alt: "Gambar Ruko" },
-      { src: "/images/Ruko/3.jpg", alt: "Gambar Ruko" },
-      { src: "/images/Ruko/4.jpg", alt: "Gambar Ruko" },
+      { src: "/dist/images/Ruko/1.jpg", alt: "Gambar Ruko" },
+      { src: "/dist/images/Ruko/2.jpg", alt: "Gambar Ruko" },
+      { src: "/dist//Ruko/3.jpg", alt: "Gambar Ruko" },
+      { src: "/dist//Ruko/4.jpg", alt: "Gambar Ruko" },
     ],
 
     title: "5 Pintu Ruko Sorek Lintas Timur DIJUAL",
@@ -51,11 +51,11 @@ export default [
   {
     id: 3,
     images: [
-      { src: "/images/Solok/Rumahbenteng1.webp", alt: "RumahBenteng" },
-      { src: "/images/Solok/Rumahbenteng2.webp", alt: "RumahBenteng" },
+      { src: "/dist/images/Solok/Rumahbenteng1.webp", alt: "RumahBenteng" },
+      { src: "/dist/images/Solok/Rumahbenteng2.webp", alt: "RumahBenteng" },
     ],
     videos: [
-      { src: "/videos/Solok/rumahsolok.mp4", type: "video/mp4" }, // ✅ Tambahan
+      { src: "/dist/videos/Solok/rumahsolok.mp4", type: "video/mp4" }, // ✅ Tambahan
     ],
     title: "Rumah Bulat Dijual hitung Harga Tanah depan Polres Kota Solok",
     city: "Kota Solok,Sumatera Barat",
