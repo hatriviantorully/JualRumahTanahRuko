@@ -1,3 +1,5 @@
+const BASE_PATH = import.meta.env.BASE_URL || "/JualRumahTanahRuko/";
+
 export default function Entry(props) {
   const updatedDate = props.updatedAt ? new Date(props.updatedAt) : new Date();
   const formattedDate = updatedDate.toLocaleDateString("id-ID", {
@@ -12,7 +14,7 @@ export default function Entry(props) {
         <div className="location-header">
           <img
             className="marker"
-            src="/images/marker.png"
+            src={`${BASE_PATH}images/marker.png`}
             alt="map marker icon"
           />
           <span className="city">{props.city}</span>
