@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://hatriviantorully.github.io/JualRumahTanahRuko/sitemap.xml
