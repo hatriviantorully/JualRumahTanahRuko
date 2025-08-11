@@ -1,36 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <!-- Halaman utama -->
   <url>
     <loc>https://hatriviantorully.github.io/JualRumahTanahRuko/</loc>
     <lastmod>2025-08-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>1.0</priority>
+    <priority>1.00</priority>
   </url>
-
-  <!-- Halaman Kavling Pekanbaru -->
   <url>
-    <loc>https://hatriviantorully.github.io/JualRumahTanahRuko/kavling-pekanbaru.html</loc>
+    <loc>https://hatriviantorully.github.io/JualRumahTanahRuko/kavling-pekanbaru</loc>
     <lastmod>2025-08-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.80</priority>
   </url>
-
-  <!-- Halaman Ruko Sorek -->
   <url>
-    <loc>https://hatriviantorully.github.io/JualRumahTanahRuko/ruko-sorek.html</loc>
+    <loc>https://hatriviantorully.github.io/JualRumahTanahRuko/ruko-sorek</loc>
     <lastmod>2025-08-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.80</priority>
   </url>
-
-  <!-- Halaman Rumah Solok -->
   <url>
-    <loc>https://hatriviantorully.github.io/JualRumahTanahRuko/rumah-solok.html</loc>
+    <loc>https://hatriviantorully.github.io/JualRumahTanahRuko/rumah-solok</loc>
     <lastmod>2025-08-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <priority>0.80</priority>
   </url>
-
 </urlset>
