@@ -82,8 +82,7 @@ export default [
     ],
     title: "Rumah Unik Solok – Hitung Harga Tanah Depan Polres",
     city: "Kota Solok, Sumatera Barat",
-    googleMapsLink:
-      "https://www.google.com/maps/place/AZ+ZAHRA+BABY+SPA+%26+MUSLIMAH+BEAUTY+CARE",
+    googleMapsLink: "https://maps.app.goo.gl/NStL5jRhS3F498JeA",
     dates: new Date("2025-08-07T12:30:00").toLocaleDateString("id-ID", {
       day: "numeric",
       month: "long",
