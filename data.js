@@ -82,7 +82,7 @@ export default [
     ],
     title: "Rumah Unik Solok – Hitung Harga Tanah Depan Polres",
     city: "Kota Solok, Sumatera Barat",
-    googleMapsLink: "https://maps.app.goo.gl/NStL5jRhS3F498JeA",
+    googleMapsLink: "https://maps.app.goo.gl/9Q37cVp1vYbpK8PZA",
     dates: new Date("2025-08-07T12:30:00").toLocaleDateString("id-ID", {
       day: "numeric",
       month: "long",
